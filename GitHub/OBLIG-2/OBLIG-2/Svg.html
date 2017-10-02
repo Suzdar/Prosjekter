@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/style.css" type="text/css">
+  <title>SVG</title>
+  <link rel="shortcut icon" href="./img/Logo.ico" />
+
+</head>
+
+<body>
+
+<!-- NAVIGATOR !-->
+
+<header>
+  <nav class="navigator">
+  <span class="fontawesome-home"><a href="index.html">HOME</a></span>
+  <span class="fontawesome-file-alt"><a href="Math.html">MATH-ML</a></span>
+  <span class="fontawesome-file-alt"><a href="#">SVG</a></span>
+  <span class="fontawesome-github-alt"><a href="Github.html">GIT-HUB</a></span>
+  </nav>
+</header>
+
+<!-- INTRO !-->
+
+<div class="p1">
+  <div class="ptext">
+    <span class="border">
+      SVG
+    </span>
+  </div>
+</div>
+
+<section class="section section-light">
+  <h2>SVG</h2>
+  <p>SVG står for "Scalable Vector Graphics" og er en Markup-language som er en utgave av XML.
+  <br/>SVG er en utrolig nyttig måte å tegne, designe, og lage figurer, logoer, animasjoner uten å miste kvalitet når størrelsen endres.
+  <br/>Det brukes også for å lage "2D" objekter i html, og er veldig kompatibel med de fleste nettlesere og smart-telefoner.
+  <br/>SVG fonter og SMIL-animations er litt mindre kompatible med nettlesere og mobiler, men også derfor mindre brukt.
+  <br/>
+  <img id="svg" src="./img/svgex.png" alt="svg" width="200" height="150"/>
+  <br/>Her ser vi et eksempel på forskjellen mellom PNG og SVG når størrelser endres.
+  <br/>
+  <svg width="100" height="120">
+    <circle cx="50" cy="50" r="40" stroke="#af4900" stroke-width="3" fill="purple"/>
+    Nettleseren din bruker ikke SVG.
+  </svg>
+
+  <svg id="star" width="200" height="200">
+     <polygon points="100, 10 40, 198 190, 78 10, 78 160, 198"
+     style="fill:#00cc99; stroke:#666; stroke-width:4; fill-rule:nonzero;"/>
+     Nettleseren din bruker ikke SVG.
+   </svg>
+
+  <svg width="100" height="100">
+    <rect width="100" height="60" stroke="red" stroke-width="3" fill="#00cc99"/>
+    Nettleseren din bruker ikke SVG.
+  </svg>
+
+<svg id="star2" width="200" height="200">
+  <polygon points="100, 10 40, 198 190, 78 10, 78 160, 198"
+  style="fill:cyan; stroke:black; stroke-width:4; fill-rule:nonzero;"/>
+  Nettleseren din bruker ikke SVG.
+</svg>
+
+<svg width="100" height="120">
+  <circle cx="50" cy="50" r="40" stroke="#af4900" stroke-width="3" fill="purple"/>
+  Nettleseren din bruker ikke SVG.
+</svg>
+
+<p>Her ser vi at vi kan også manipulere disse figurene med CSS og lage animasjoner.</p>
+</section>
+
+<div class="p4">
+  <div class="ptext">
+    <span class="border">
+      Design<span class="punktum1">.</span><span class="punktum2">.</span><span class="punktum3">.</span>thinking made visual. <!-- Det ligger spans her for animasjon, også brukt lengre nede. !-->
+    </span>
+  </div>
+</div>
+
+<footer class="footer">Email:<a href="mailto:Suzdar@hiof.no">Suzdarbi@hiof.no</a> - <a href="Planlegg.html">About design</a></footer>
+
+</body>
+
+</html>
